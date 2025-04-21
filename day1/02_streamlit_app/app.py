@@ -46,8 +46,8 @@ def load_model():
 pipe = llm.load_model()
 
 # --- Streamlit アプリケーション ---
-st.title("🤖 Gemma 2 Chatbot with Feedback")
-st.write("Gemmaモデルを使用したチャットボットです。回答に対してフィードバックを行えます。")
+st.title("🤖 StableLM-Zephyr 3B Chatbot with Feedback")
+st.write("StableLM-Zephyr 3Bモデルを使用したチャットボットです。回答に対してフィードバックを行えます。")
 st.markdown("---")
 
 # --- サイドバー ---
